@@ -4,6 +4,7 @@
 }
 body {
   background-color: #fff;
+  scroll-behavior: smooth;
 
 }
 
@@ -159,5 +160,30 @@ nav {
   border-color: black;
 }
 
-.phone{
+.phone {
+  display: block;
+  padding: 0px;
+  margin: 50px;
+  text-align: right;
+  width: 3px;
+  height: 10px;
+  position: fixed;
+  z-index: 1;
+  margin-left: 1200px;
+}
+.phone img{
+  width: 1200%;
+}
+
+.tlf {
+  display: block;
+  padding: 0px;
+  margin: 60px;
+  text-align: right;
+  width: 100px;
+  height: 10px;
+  position: fixed;
+  z-index: 1;
+  margin-left: 1250px;
+
 }
