@@ -4,7 +4,6 @@
 }
 body {
   background-color: #fff;
-  font-family: Helvetica;
 
 }
 
@@ -49,9 +48,7 @@ nav {
   margin: 0px 10px;
   padding: 20px;
 }
-.ul img{
-  align-content: right;
-}
+
 .wrapper{
   margin-top: 10px;
   display: grid;
@@ -162,12 +159,4 @@ nav {
 }
 
 .phone{
-  display: block;
-  padding: 0px;
-  margin: 10px;
-  align-content: right;
-  width: 10px;
-  height: 10px;
-  position: fixed;
-  z-index: 1;
 }
