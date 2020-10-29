@@ -53,10 +53,11 @@ nav {
 .wrapper{
   margin-top: 10px;
   display: grid;
-    grid-gap: 10px;
-		grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
-    background-color: #fff;
-		color: #444;
+  grid-gap: 10px;
+  grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
+  background-color: #fff;
+  color: #444;
+  margin-left: 65px;
 }
 .a{
   grid-column: 1 / 3;
@@ -92,12 +93,12 @@ nav {
     display: fixed;
     flex-wrap: wrap;
     padding: 20px;
-    border-radius: 10px;
     background: #fff;
 }
 .container1 p{
   text-align: center;
-  margin-top: 20%;
+  margin-top: 5%;
+  margin-bottom: 5%;
   font-size: 1.6em
 }
 .container2{
@@ -128,6 +129,14 @@ nav {
     text-align: center;
     margin: 3em;
     font-size: 2.5em;
+    font-family: "Helvetica Neue";
+}
+
+.h3{
+  text-align: center;
+  margin: 3em;
+  font-size: 1em;
+  font-family: "Helvetica Neue";
 }
 .img-back{
   display: none;
@@ -143,4 +152,9 @@ nav {
 }
 .img-barn{
   width: 100%;
+}
+
+.icons{
+  border-style: solid;
+  border-color: black;
 }
