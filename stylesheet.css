@@ -12,26 +12,24 @@ nav {
   height: 100px;
   background-color: #fff;
 }
-.logo a{
+.logo {
   display: block;
-  text-decoration: none;
-  font-family: Courier;
-  color: black;
-  font-size: 1.8em;
-  padding: 10px;
-  margin: 0px 10px;
+  padding: 0px;
+  margin: 10px;
   text-align: left;
-  width: auto;
-  height: auto;
+  width: 10px;
+  height: 10px;
   position: fixed;
-  top: 18px;
-  left: 20px;
   z-index: 1;
 }
+.logo img{
+  width: 1200%;
+}
+
 
 .navbar{
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: 55px;
+  padding-bottom: 50px;
   text-align: center;
   background: #fff;
   position: fixed;
