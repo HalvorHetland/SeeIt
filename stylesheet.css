@@ -4,7 +4,11 @@
 }
 body {
   background-color: #fff;
+<<<<<<< HEAD
+  scroll-behavior: smooth;
+=======
   font-family: Helvetica;
+>>>>>>> cdb59e05ea1b0bfe3b5630abdf8b8442a934d7e5
 
 }
 
@@ -161,6 +165,35 @@ nav {
   border-color: black;
 }
 
+<<<<<<< HEAD
+.phone {
+  display: block;
+  padding: 0px;
+  margin: 50px;
+  text-align: right;
+  width: 3px;
+  height: 10px;
+  position: fixed;
+  z-index: 1;
+  margin-left: 1200px;
+}
+.phone img{
+  width: 1200%;
+}
+
+.tlf {
+  display: block;
+  padding: 0px;
+  margin: 60px;
+  text-align: right;
+  width: 100px;
+  height: 10px;
+  position: fixed;
+  z-index: 1;
+  margin-left: 1250px;
+
+}
+=======
 .phone{
   display: block;
   padding: 0px;
@@ -171,3 +204,4 @@ nav {
   position: fixed;
   z-index: 1;
 }
+>>>>>>> cdb59e05ea1b0bfe3b5630abdf8b8442a934d7e5
